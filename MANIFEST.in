@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include brainstorming *.css
+recursive-include brainstorming *.csv
+recursive-include brainstorming *.html
+recursive-include brainstorming *.ico
+recursive-include brainstorming *.js
+recursive-include brainstorming *.json
+recursive-include brainstorming *.md
+recursive-include brainstorming *.png
+recursive-include brainstorming *.py
+recursive-include brainstorming *.svg
+recursive-include brainstorming *.txt
+recursive-exclude brainstorming *.pyc
