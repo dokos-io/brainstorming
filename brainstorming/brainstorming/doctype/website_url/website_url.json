@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-03-07 11:45:37",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "website_url",
+  "website_name",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "website_url",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Website URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "website_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Website Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "URL-",
+   "reqd": 1
+  }
+ ],
+ "links": [],
+ "modified": "2022-03-07 15:24:45.370456",
+ "modified_by": "Administrator",
+ "module": "Brainstorming",
+ "name": "Website URL",
+ "name_case": "Title Case",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "permlevel": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All"
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "website_url",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "website_url"
+}

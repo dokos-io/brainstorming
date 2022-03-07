@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-03-07 15:03:48.716157",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "website_certificate_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "oldfieldname": "naming_series",
+   "oldfieldtype": "Select",
+   "options": "WEBSITE-.YYYY.-\nURL-.YYYY.-"
+  },
+  {
+   "fieldname": "website_certificate_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Website Certificate Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-07 15:26:42.417556",
+ "modified_by": "Administrator",
+ "module": "Brainstorming",
+ "name": "Website Certificate",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "website_certificate_name"
+}
